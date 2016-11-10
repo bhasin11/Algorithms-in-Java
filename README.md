@@ -1,5 +1,9 @@
-Welcome to my repository.
+'MyWork' repository Welcomes you.
 
-In this repository, I've shared my solutions of problems on leetcode.com
+Through this repository I have tried to share some of my work.
 
-The solutions are implemented in Java.
+As the name suggests, this repository includes my work/code on various topics.
+
+Each topic has its own folder, providing basic implementations and also includes many challenging problems.
+
+All the solutions are implemented in Java.
