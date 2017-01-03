@@ -34,7 +34,7 @@ public class MergeSort {
 		return arr;
 	}
 	
-	public int[] helper(int[] arr, int start, int end){
+	public void helper(int[] arr, int start, int end){
 		
 		if(start<end){
 			int middle = start + (end-start)/2;
@@ -44,8 +44,6 @@ public class MergeSort {
 			
 			merge(arr, start, middle, end);
 		}
-		
-		return arr;
 	}
 	
 	public void merge(int[] arr, int start, int middle, int end){
