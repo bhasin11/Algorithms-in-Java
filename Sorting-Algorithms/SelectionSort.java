@@ -23,19 +23,52 @@ public class SelectionSort {
 	 * dis: it never has a scope to end early 
 	 */
 	
-	public int[] selection(int[] arr){
+	public int[] selectionSort(int[] arr){
 		
-		int j=0, index=0, temp=0, temp2=0;
-		for(int i=0;i<arr.length;i++){
-			temp=arr[i];
-			for(j=i+1;j<arr.length;j++){
-				if(temp>arr[j]){
-					index=j;
-					temp=arr[j];
-				}
+		if(arr == null || arr.length == 0) return arr;
+		
+		for( int i=0;i<arr.length;i++){
+			System.out.println("Iteration "+(i+1));
+			int ind=i;
+			
+			for(int j=i;j<arr.length;j++){
+				if(arr[ind] > arr[j]) ind = j;
 			}
-			arr[index]=arr[i];
-			arr[i]=temp;
+			
+			int temp=arr[ind];
+			arr[ind] = arr[i];
+			arr[i] = temp;
+			
+			// Loop placed only to understand algorithm
+			for(int k=0;k<arr.length;k++){
+				System.out.print(arr[k]+" ");
+			}
+			System.out.println();
+		}
+		return arr;
+	}
+
+	public int[] inverseSelectionSort(int[] arr){
+	
+		if(arr == null || arr.length == 0) return arr;
+		int x=0;
+		for( int i=arr.length-1;i>=0;i--){
+			System.out.println("Iteration "+(x++));
+			int ind=i;
+
+			for(int j=i;j>=0;j--){
+				if(arr[ind] < arr[j]) ind = j;
+			}
+
+			int temp=arr[ind];
+			arr[ind] = arr[i];
+			arr[i] = temp;
+			
+			// Loop placed only to understand algorithm
+			for(int k=0;k<arr.length;k++){
+				System.out.print(arr[k]+" ");
+			}
+			System.out.println();
 		}
 		return arr;
 	}
