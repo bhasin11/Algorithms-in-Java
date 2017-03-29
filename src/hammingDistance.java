@@ -7,7 +7,7 @@ public class Solution {
          *      Then XOR of 'x' and 'y' is 1101.
          *  We then keep right shifting by 1 and check if the right most bit is 1.
          *  If yes, we increment the counter variable by 1.
-         *  Finally, once the number becomes 0, we return the counter variable.
+         *  Finally, once the number becomes 0, we return the count variable.
          */
          
          x = x^y;
