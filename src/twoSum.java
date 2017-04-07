@@ -15,9 +15,9 @@ public class Solution {
          */
          
          int output[] = new int[2];
-         if(numbers==null || numbers.length==0) return output;
+         if(numbers == null || numbers.length == 0) return output;
         
-         int start=0, end=numbers.length-1;
+         int start = 0, end = numbers.length-1;
         
          while(start<end){
              if(numbers[start]+numbers[end]==target){
