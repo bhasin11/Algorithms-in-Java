@@ -4,7 +4,7 @@ public class Solution {
         /*
          * The approach is to use a hash map and store the
          * frequecy of each character of the string. Second,
-         * we try to store each character in the string at
+         * we try to store each character in a list at
          * an index equal to the frequncy of that character
          * in the string. Finally, we iterate from the end
          * to start of the string and append each character 
