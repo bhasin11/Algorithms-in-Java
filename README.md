@@ -9,7 +9,7 @@ In this section, you can find implementation of different Data Structures in Jav
 
 | Data Structure   | Implementation |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| <b>Stack</b>  <br>  Methods Implemented: push(), pop(), peek(), isEmpty()               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/stack.js)|
+| <b>Stack</b>  <br>  Methods Implemented: push(), pop(), peek(), isEmpty()              | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/stack.js)|
 | <b>Queue</b>  <br>  Methods Implemented: offer(), poll(), peek(), isEmpty()               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/queue.js)|
 | <b>Circular Queue</b>  <br>  Methods Implemented: offer(), poll(), peek(), isEmpty()             | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/circularQueue.js)|
 | <b>Linked List</b>  <br>  Methods Implemented: insertFirst(), insertLast(), insertAt(), removeFirst(), removeLast(), removeAt(), displayAll(), contains(), indexOf(), clear(), get(), set(), size()               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/master/src/linkedList.js)|
